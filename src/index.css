@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+    @theme{
+        --color-light-background:#fafafa;
+        --color-light-primary:#FF7F50;
+        --color-light-secondary:#FFB347;
+        --color-light-text:#222;
+
+
+        --color-dark-background:#1E1E1E;
+        --color-dark-primary:#FFA07A;
+        --color-dark-secondary:#FFCBA4;
+        --color-dark-text:#F5F5F5;
+
+
+        --font-roboto:"Roboto", sans-serif;
+        --font-poppins: "Poppins", sans-serif;
+
+        --shadow-card-shadow:0 1px 3px rgba(0, 0, 0, 0.04)
+
+    }
+   
+.custom-flexible-cards{
+    @apply inline-block   w-[calc(50%-10px)] sm:w-[calc(33.333%-13.33px)] md:w-[calc(25%-15px)] lg:w-[calc(20%-16px)]  xl:w-[calc(16.666%-16.66px)]  2xl:w-[calc(14.285%-17.14px)];
+}
+.custom-button{
+    @apply bg-light-primary text-light-background  font-medium outline-none px-4 py-2 rounded hover:bg-dark-primary hover:scale-105 transition duration-300 ease-linear;
+}
