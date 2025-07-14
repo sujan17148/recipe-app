@@ -33,4 +33,4 @@ A simple, user-friendly web application that allows users to browse, search, and
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/yourusername/recipe-app.git
+   git clone https://github.com/sujan17148/recipe-app.git
