@@ -17,13 +17,13 @@ export default function Navbar() {
         </span>
         <ul className="links  font-medium text-lg hidden lg:flex items-center gap-2.5">
           <li>
-            <NavLink to="/" className={({isActive})=>`hover:text-dark-primary ${isActive?"dark:text-dark-primary text-white":""}`}>Home</NavLink>
+            <NavLink to="/" className={({isActive})=>`hover:dark:text-dark-primary hover:text-white ${isActive?"dark:text-dark-primary text-white":""}`}>Home</NavLink>
           </li>
           <li>
-            <NavLink to="/random" className={({isActive})=>`hover:text-dark-primary ${isActive?"dark:text-dark-primary text-white":""}`}>Random</NavLink>
+            <NavLink to="/random" className={({isActive})=>`hover:dark:text-dark-primary hover:text-white ${isActive?"dark:text-dark-primary text-white":""}`}>Random</NavLink>
           </li>
           <li>
-            <NavLink to="/favourites" className={({isActive})=>`hover:text-dark-primary ${isActive?"dark:text-dark-primary text-white":""}`}>Favourites</NavLink>
+            <NavLink to="/favourites" className={({isActive})=>`hover:dark:text-dark-primary hover:text-white ${isActive?"dark:text-dark-primary text-white":""}`}>Favourites</NavLink>
           </li>
         </ul>
       </div>

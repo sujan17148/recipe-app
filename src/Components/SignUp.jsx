@@ -74,7 +74,7 @@ export default function SignUp() {
   }, [password, isPasswordTouched]);
 
   return (
-    <div className="w-screen min-h-[calc(100dvh-64px-64px)]  flex-col flex items-center justify-center">
+    <div className="w-screen min-h-[calc(100dvh-64px-64px)]  dark:bg-dark-background flex-col flex items-center justify-center">
       <div className="font-poppins font-medium  text-light-text dark:text-dark-text bg-light-background dark:bg-dark-background rounded p-5  shadow-[6px_6px_12px_#c5c5c5] dark:shadow-[6px_6px_12px_#000]">
         <h1 className="font-roboto font-bold text-3xl text-center">
           SignUp Form
