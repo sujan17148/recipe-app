@@ -4,7 +4,6 @@ import { IoBookOutline } from "react-icons/io5";
 import { CiForkAndKnife } from "react-icons/ci";
 import { LuChefHat } from "react-icons/lu";
 import RecipeCard from "../Components/RecipeCard";
-import Burger from "../assets/burger.png";
 export default function Home() {
   return (
     <>
@@ -18,7 +17,7 @@ function Hero() {
   return (
     <div className="hero-section md:flex flex-row-reverse items-center bg-light-background dark:bg-dark-background text-light-text dark:text-dark-text min-h-[calc(100dvh-64px-64px)] font-black px-5 xl:px-10 py-10 md:py-0">
     <div className="right flex justify-center items-center md:w-1/2 mb-10 md:mb-0">
-      <img className="object-cover w-full max-w-[400px] md:max-w-full h-auto" src={Burger} alt="recipe-img" />
+      <img className="object-cover w-full max-w-[400px] md:max-w-full h-auto" src="/burger.webp" loading="lazy" alt="recipe-img" />
     </div>
 
     <div className="left  text-center md:text-left md:pl-10 md:w-1/2">

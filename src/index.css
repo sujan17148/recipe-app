@@ -23,7 +23,7 @@
     }
    
 .custom-flexible-cards{
-    @apply inline-block   w-[calc(50%-10px)] sm:w-[calc(33.333%-13.33px)] md:w-[calc(25%-15px)] lg:w-[calc(20%-16px)]  xl:w-[calc(16.666%-16.66px)]  2xl:w-[calc(14.285%-17.14px)];
+    @apply inline-block  w-[calc(50%-10px)] sm:w-[calc(33.333%-13.33px)] md:w-[calc(25%-15px)] lg:w-[calc(20%-16px)]  xl:w-[calc(16.666%-16.66px)]  2xl:w-[calc(14.285%-17.14px)];
 }
 .custom-button{
     @apply bg-light-primary text-light-background  font-medium outline-none px-4 py-2 rounded hover:bg-dark-primary hover:scale-105 transition duration-300 ease-linear;
